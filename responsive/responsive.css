@@ -1,3 +1,9 @@
 body{
-    background: url(responsive.png)
+    background-color: palevioletred
+    
 }
+.image
+{
+    background: url: "responsive/software.png"
+}
+
