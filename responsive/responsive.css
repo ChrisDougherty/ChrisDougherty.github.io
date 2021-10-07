@@ -2,8 +2,37 @@ body{
     background-color: palevioletred
     
 }
-.image
+.comic{
+            width: 740px;
+            height: 180px;
+            background: url(https://imgs.xkcd.com/comics/self_description.png) 0 0;
+
+}
+ @media screen and (min-width: 1200px) {
+     .comic
+        {
+            background: url(https://imgs.xkcd.com/comics/self_description.png) 0 0;
+            height:180px;
+            width: 250px;
+        }
+ }
+@media screen and (max-width:1200px) and (min-width:600px)
 {
+    .comic{
+        background: url(https://imgs.xkcd.com/comics/self_description.png) -250px 0;
+        height:180px;
+        width: 250px;
+            
+    
+    }
     
 }
+@media screen and (max-width:600px)
+{
+    .comic{
+        background: url(https://imgs.xkcd.com/comics/self_description.png) -500px 0;
+        height:180px;
+        width: 250px;
 
+    }
+}
