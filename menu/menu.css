@@ -1,13 +1,23 @@
 .row
 {
     background-color:pink;
-    
+    margin: 10px;
+    flex: auto;
 }
 .col-md-4
 {
     border: 2px solid black;
 }
-.h1
+
+@media screen and (min-width:768px) and (max-width:991px)
 {
-    align-self: center;
+    #chicken {
+        width: 50%;
+    }
+    #beef{
+        width: 50%;
+    }
+    #sushi{
+        width:100%;
+    }
 }
