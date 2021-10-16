@@ -1,5 +1,13 @@
-.grid
+.row
 {
-    display: grid;
     background-color:pink;
+    
+}
+.col-md-4
+{
+    border: 2px solid black;
+}
+.h1
+{
+    align-self: center;
 }
